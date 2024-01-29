@@ -1,0 +1,26 @@
+
+spring:
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: 12345
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
+logging:
+  level:
+    com.example.com.example.ware-house-app.controller: DEBUG
+  pattern:
+    console: '%date{ISO8601} %-5level %class{0}:%L - [%X] %msg%n'
+    file: '%date{ISO8601} %-5level %class{0}:%L - [%X] %msg%n'
+  file:
+    name: application.log
+#server:
+#  address: 192.168.0.117
+#  port: 8087
+
+
+

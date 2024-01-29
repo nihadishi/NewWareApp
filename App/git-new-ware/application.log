@@ -1,0 +1,1268 @@
+2024-01-26 00:30:56,609 INFO  AbstractEntityManagerFactoryBean:650 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-26 00:30:56,627 INFO  HikariDataSource:350 - [] HikariPool-1 - Shutdown initiated...
+2024-01-26 00:30:56,633 INFO  HikariDataSource:352 - [] HikariPool-1 - Shutdown completed.
+2024-01-26 01:47:38,547 INFO  StartupInfoLogger:50 - [] Starting WareHouseAppApplication using Java 20.0.2 with PID 3076 (D:\Desktop\git-new-ware\build\classes\java\main started by NIHAD in D:\Desktop\git-new-ware)
+2024-01-26 01:47:38,552 INFO  SpringApplication:662 - [] No active profile set, falling back to 1 default profile: "default"
+2024-01-26 01:47:39,963 INFO  RepositoryConfigurationDelegate:139 - [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-26 01:47:40,095 INFO  RepositoryConfigurationDelegate:208 - [] Finished Spring Data repository scanning in 109 ms. Found 3 JPA repository interfaces.
+2024-01-26 01:47:41,181 INFO  TomcatWebServer:109 - [] Tomcat initialized with port 8080 (http)
+2024-01-26 01:47:41,205 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2024-01-26 01:47:41,205 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-26 01:47:41,329 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2024-01-26 01:47:41,331 INFO  ServletWebServerApplicationContext:296 - [] Root WebApplicationContext: initialization completed in 2718 ms
+2024-01-26 01:47:41,557 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-26 01:47:41,724 INFO  Version:44 - [] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-26 01:47:41,841 INFO  RegionFactoryInitiator:50 - [] HHH000026: Second-level cache disabled
+2024-01-26 01:47:42,492 INFO  SpringPersistenceUnitInfo:87 - [] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-26 01:47:42,551 INFO  HikariDataSource:110 - [] HikariPool-1 - Starting...
+2024-01-26 01:47:42,892 INFO  HikariPool:565 - [] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6df2af02
+2024-01-26 01:47:42,893 INFO  HikariDataSource:123 - [] HikariPool-1 - Start completed.
+2024-01-26 01:47:44,969 INFO  JtaPlatformInitiator:58 - [] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-26 01:47:45,180 INFO  AbstractEntityManagerFactoryBean:437 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-26 01:47:46,637 WARN  JpaBaseConfiguration$JpaWebConfiguration:232 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-26 01:47:47,413 INFO  DefaultSecurityFilterChain:54 - [] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7715d43c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3763aafd, org.springframework.security.web.context.SecurityContextHolderFilter@19ce597a, org.springframework.security.web.header.HeaderWriterFilter@33315925, org.springframework.web.filter.CorsFilter@16ca4532, org.springframework.security.web.authentication.logout.LogoutFilter@18baee88, com.example.warehouseapp.config.JwtAuthenticationFilter@7cc7e441, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@20e25bf7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@9fc125b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2cc82c83, org.springframework.security.web.session.SessionManagementFilter@2a9fd482, org.springframework.security.web.access.ExceptionTranslationFilter@4a83d61c, org.springframework.security.web.access.intercept.AuthorizationFilter@4fc1eee5]
+2024-01-26 01:47:47,454 WARN  User:284 - [] User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-01-26 01:47:48,493 INFO  TomcatWebServer:241 - [] Tomcat started on port 8080 (http) with context path ''
+2024-01-26 01:47:48,517 INFO  StartupInfoLogger:56 - [] Started WareHouseAppApplication in 10.796 seconds (process running for 12.008)
+2024-01-26 01:48:08,551 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-26 01:48:08,551 INFO  FrameworkServlet:532 - [] Initializing Servlet 'dispatcherServlet'
+2024-01-26 01:48:08,552 INFO  FrameworkServlet:554 - [] Completed initialization in 1 ms
+2024-01-26 01:49:41,153 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 01:49:41,295 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 02:14:43,695 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 02:14:43,721 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 02:15:11,845 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 02:15:11,857 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 02:15:26,585 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 02:15:26,594 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 02:15:44,761 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 02:15:44,769 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 02:16:22,368 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 02:16:22,377 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 02:16:45,789 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 02:16:45,800 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 02:17:05,258 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 02:17:05,268 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 02:17:27,271 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 02:17:27,284 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 02:18:40,701 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 02:18:40,722 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 02:21:00,340 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 02:21:00,351 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 02:21:27,642 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 02:21:27,656 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 02:21:30,737 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 02:21:30,743 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 02:21:49,327 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 02:21:49,335 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 02:21:51,639 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 02:21:51,654 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 02:21:59,836 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 02:21:59,848 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 02:22:12,945 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 02:22:12,952 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 02:22:33,670 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 02:22:33,676 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 02:27:50,666 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 02:27:50,676 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 02:33:22,014 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 02:33:22,024 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 02:33:46,313 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 02:33:46,326 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 02:34:12,017 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 02:34:12,030 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 02:34:19,010 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 02:34:19,019 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 02:36:00,004 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 02:36:00,014 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 02:40:39,218 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 02:40:39,225 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 02:41:05,990 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 02:41:06,000 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 02:44:41,430 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 02:44:41,435 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 02:47:34,787 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 02:47:34,800 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 02:49:24,727 INFO  AbstractOpenApiResource:371 - [] Init duration for springdoc-openapi is: 568 ms
+2024-01-26 03:11:36,233 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 03:11:36,242 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 03:16:25,469 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 03:16:25,481 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 03:17:07,571 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 03:17:07,584 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 03:27:46,847 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 03:27:46,860 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 03:30:04,385 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 03:30:04,399 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 03:31:21,213 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 03:31:21,253 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 03:32:39,850 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 03:32:39,855 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 03:34:17,094 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 03:34:17,102 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 03:35:50,034 INFO  AbstractEntityManagerFactoryBean:650 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-26 03:35:50,041 INFO  HikariDataSource:350 - [] HikariPool-1 - Shutdown initiated...
+2024-01-26 03:35:50,048 INFO  HikariDataSource:352 - [] HikariPool-1 - Shutdown completed.
+2024-01-26 03:35:56,303 INFO  StartupInfoLogger:50 - [] Starting WareHouseAppApplication using Java 20.0.2 with PID 32120 (D:\Desktop\git-new-ware\build\classes\java\main started by NIHAD in D:\Desktop\git-new-ware)
+2024-01-26 03:35:56,305 INFO  SpringApplication:662 - [] No active profile set, falling back to 1 default profile: "default"
+2024-01-26 03:35:56,959 INFO  RepositoryConfigurationDelegate:139 - [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-26 03:35:57,053 INFO  RepositoryConfigurationDelegate:208 - [] Finished Spring Data repository scanning in 83 ms. Found 3 JPA repository interfaces.
+2024-01-26 03:35:57,528 INFO  TomcatWebServer:109 - [] Tomcat initialized with port 8080 (http)
+2024-01-26 03:35:57,544 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2024-01-26 03:35:57,544 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-26 03:35:57,611 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2024-01-26 03:35:57,611 INFO  ServletWebServerApplicationContext:296 - [] Root WebApplicationContext: initialization completed in 1258 ms
+2024-01-26 03:35:57,717 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-26 03:35:57,807 INFO  Version:44 - [] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-26 03:35:57,847 INFO  RegionFactoryInitiator:50 - [] HHH000026: Second-level cache disabled
+2024-01-26 03:35:58,119 INFO  SpringPersistenceUnitInfo:87 - [] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-26 03:35:58,150 INFO  HikariDataSource:110 - [] HikariPool-1 - Starting...
+2024-01-26 03:35:58,344 INFO  HikariPool:565 - [] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3d798e76
+2024-01-26 03:35:58,345 INFO  HikariDataSource:123 - [] HikariPool-1 - Start completed.
+2024-01-26 03:35:59,367 INFO  JtaPlatformInitiator:58 - [] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-26 03:35:59,465 INFO  AbstractEntityManagerFactoryBean:437 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-26 03:36:00,082 WARN  JpaBaseConfiguration$JpaWebConfiguration:232 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-26 03:36:00,352 INFO  DefaultSecurityFilterChain:54 - [] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1b9cfc19, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@765d67dd, org.springframework.security.web.context.SecurityContextHolderFilter@10545d02, org.springframework.security.web.header.HeaderWriterFilter@4628f386, org.springframework.web.filter.CorsFilter@2e68bd3d, org.springframework.security.web.authentication.logout.LogoutFilter@59b43e35, com.example.warehouseapp.config.JwtAuthenticationFilter@16e0afab, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@f4b2d13, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7154a248, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2fda92e0, org.springframework.security.web.session.SessionManagementFilter@9fc125b, org.springframework.security.web.access.ExceptionTranslationFilter@2a3c3a04, org.springframework.security.web.access.intercept.AuthorizationFilter@2cc82c83]
+2024-01-26 03:36:00,379 WARN  User:284 - [] User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-01-26 03:36:00,782 INFO  TomcatWebServer:241 - [] Tomcat started on port 8080 (http) with context path ''
+2024-01-26 03:36:00,792 INFO  StartupInfoLogger:56 - [] Started WareHouseAppApplication in 4.92 seconds (process running for 5.49)
+2024-01-26 03:36:06,796 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-26 03:36:06,796 INFO  FrameworkServlet:532 - [] Initializing Servlet 'dispatcherServlet'
+2024-01-26 03:36:06,798 INFO  FrameworkServlet:554 - [] Completed initialization in 2 ms
+2024-01-26 03:36:06,911 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 03:36:07,139 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 03:36:24,733 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 03:36:24,742 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 03:37:01,133 INFO  ProductService:64 - [] ActionLog.start  checkOut method with id: TVE9PQ==
+2024-01-26 03:37:01,142 ERROR DirectJDKLog:175 - [] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.warehouseapp.dao.entity.ProductEntity.getCheckCount()" because "entity" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.warehouseapp.dao.entity.ProductEntity.getCheckCount()" because "entity" is null
+	at com.example.warehouseapp.service.ProductService.checkCount(ProductService.java:67)
+	at com.example.warehouseapp.controller.ProductController.checkCount(ProductController.java:45)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:262)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at com.example.warehouseapp.config.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:40)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:225)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2024-01-26 03:37:05,378 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 03:37:05,389 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 03:37:25,484 INFO  ProductService:64 - [] ActionLog.start  checkOut method with id: TVE9PQ==
+2024-01-26 03:37:25,489 ERROR DirectJDKLog:175 - [] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.warehouseapp.dao.entity.ProductEntity.getCheckCount()" because "entity" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.warehouseapp.dao.entity.ProductEntity.getCheckCount()" because "entity" is null
+	at com.example.warehouseapp.service.ProductService.checkCount(ProductService.java:67)
+	at com.example.warehouseapp.controller.ProductController.checkCount(ProductController.java:45)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:262)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at com.example.warehouseapp.config.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:40)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:225)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2024-01-26 03:37:49,816 INFO  ProductService:64 - [] ActionLog.start  checkOut method with id: TXE9PQ==
+2024-01-26 03:37:49,821 ERROR DirectJDKLog:175 - [] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.warehouseapp.dao.entity.ProductEntity.getCheckCount()" because "entity" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.warehouseapp.dao.entity.ProductEntity.getCheckCount()" because "entity" is null
+	at com.example.warehouseapp.service.ProductService.checkCount(ProductService.java:67)
+	at com.example.warehouseapp.controller.ProductController.checkCount(ProductController.java:45)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:262)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at com.example.warehouseapp.config.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:40)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:225)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2024-01-26 03:37:58,379 INFO  ProductService:64 - [] ActionLog.start  checkOut method with id: TXE9PQ==
+2024-01-26 03:37:58,385 ERROR DirectJDKLog:175 - [] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.warehouseapp.dao.entity.ProductEntity.getCheckCount()" because "entity" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.warehouseapp.dao.entity.ProductEntity.getCheckCount()" because "entity" is null
+	at com.example.warehouseapp.service.ProductService.checkCount(ProductService.java:67)
+	at com.example.warehouseapp.controller.ProductController.checkCount(ProductController.java:45)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:262)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at com.example.warehouseapp.config.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:40)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:225)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2024-01-26 03:39:12,592 INFO  ProductService:64 - [] ActionLog.start  checkOut method with id: NQ==
+2024-01-26 03:39:12,597 ERROR DirectJDKLog:175 - [] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.warehouseapp.dao.entity.ProductEntity.getCheckCount()" because "entity" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.warehouseapp.dao.entity.ProductEntity.getCheckCount()" because "entity" is null
+	at com.example.warehouseapp.service.ProductService.checkCount(ProductService.java:67)
+	at com.example.warehouseapp.controller.ProductController.checkCount(ProductController.java:45)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:262)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at com.example.warehouseapp.config.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:40)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:225)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2024-01-26 03:39:28,729 INFO  ProductService:64 - [] ActionLog.start  checkOut method with id: MQ==
+2024-01-26 03:39:28,802 INFO  ProductService:70 - [] ActionLog.end  checkOut method with id: MQ==
+2024-01-26 03:39:35,433 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 03:39:35,442 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 03:40:31,912 INFO  ProductService:64 - [] ActionLog.start  checkOut method with id: V0lGSTpUOldQQTtQOkFyYXoyMDA0LjtTOkFyYXo7SDpmYWxzZTs=
+2024-01-26 03:40:31,919 ERROR DirectJDKLog:175 - [] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.warehouseapp.dao.entity.ProductEntity.getCheckCount()" because "entity" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.warehouseapp.dao.entity.ProductEntity.getCheckCount()" because "entity" is null
+	at com.example.warehouseapp.service.ProductService.checkCount(ProductService.java:67)
+	at com.example.warehouseapp.controller.ProductController.checkCount(ProductController.java:45)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:262)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at com.example.warehouseapp.config.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:40)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:225)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2024-01-26 03:41:49,774 INFO  ProductService:64 - [] ActionLog.start  checkOut method with id: MQ==
+2024-01-26 03:41:49,783 INFO  ProductService:70 - [] ActionLog.end  checkOut method with id: MQ==
+2024-01-26 03:41:51,580 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 03:41:51,586 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 03:42:17,488 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 03:42:17,492 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 03:42:42,374 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 03:42:42,383 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 03:50:47,143 INFO  AuthService:90 - [] RegAuth TEST --->>>
+2024-01-26 03:50:47,276 INFO  AuthService:92 - [] endcoded password budur:
+2024-01-26 03:50:47,307 INFO  AuthService:101 - [] RegAuth end --->>>
+2024-01-26 03:50:54,985 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 03:50:54,991 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 03:51:05,221 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 03:51:05,229 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 04:21:30,606 INFO  AuthService:90 - [] RegAuth TEST --->>>
+2024-01-26 04:21:30,760 INFO  AuthService:92 - [] endcoded password budur:
+2024-01-26 04:21:30,769 INFO  AuthService:101 - [] RegAuth end --->>>
+2024-01-26 04:21:32,828 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 04:21:32,840 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 04:21:41,455 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 04:21:41,465 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 04:21:54,695 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 04:21:54,703 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 04:22:01,530 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 04:22:01,538 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 04:33:29,562 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 04:33:29,570 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 04:33:54,880 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 04:33:54,897 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 04:34:02,592 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 04:34:02,603 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 04:35:39,386 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 04:35:39,400 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 04:37:18,296 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 04:37:18,306 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 04:46:14,359 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 04:46:14,372 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 04:46:20,310 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 04:46:20,318 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 04:46:23,714 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 04:46:23,724 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 04:49:31,123 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 04:49:31,132 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 04:50:33,999 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 04:50:34,006 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 04:52:41,165 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 04:52:41,173 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 04:56:17,996 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 04:56:18,005 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 05:12:20,007 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 05:12:20,020 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 05:14:53,461 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 05:14:53,470 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 05:14:57,462 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 05:14:57,472 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 05:15:07,401 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 05:15:07,411 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 05:15:18,351 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 05:15:18,358 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 05:15:18,792 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 05:15:18,799 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 05:15:22,391 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 05:15:22,410 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 05:18:39,198 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 05:18:39,206 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 05:26:44,850 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 05:26:44,861 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 05:28:18,157 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 05:28:18,166 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 05:32:11,073 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 05:32:11,080 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 05:35:17,092 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 05:35:17,105 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 05:38:50,206 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 05:38:50,219 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 05:40:59,636 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 05:40:59,644 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 05:42:14,239 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 05:42:14,246 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 05:42:54,720 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 05:42:54,727 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 05:45:16,540 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 05:45:16,560 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 05:47:55,167 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 05:47:55,176 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 05:50:58,667 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 05:50:58,674 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 05:53:45,840 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 05:53:45,845 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 05:54:34,550 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 05:54:34,559 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 05:56:05,315 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 05:56:05,325 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 05:57:33,171 INFO  AbstractOpenApiResource:371 - [] Init duration for springdoc-openapi is: 764 ms
+2024-01-26 05:58:45,079 INFO  ProductService:30 - [] ActionaLog.start  product add method 
+2024-01-26 05:58:45,102 INFO  ProductService:38 - [] ActionLog.end  product add method 
+2024-01-26 05:58:50,886 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 05:58:50,894 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 05:59:16,922 INFO  ProductService:30 - [] ActionaLog.start  product add method 
+2024-01-26 05:59:16,927 INFO  ProductService:38 - [] ActionLog.end  product add method 
+2024-01-26 05:59:18,634 INFO  ProductService:30 - [] ActionaLog.start  product add method 
+2024-01-26 05:59:18,639 INFO  ProductService:38 - [] ActionLog.end  product add method 
+2024-01-26 05:59:22,262 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 05:59:22,268 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 05:59:45,731 INFO  ProductService:30 - [] ActionaLog.start  product add method 
+2024-01-26 05:59:45,735 INFO  ProductService:38 - [] ActionLog.end  product add method 
+2024-01-26 06:00:02,775 INFO  ProductService:30 - [] ActionaLog.start  product add method 
+2024-01-26 06:00:02,781 INFO  ProductService:38 - [] ActionLog.end  product add method 
+2024-01-26 06:00:06,398 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 06:00:06,405 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 06:00:52,469 INFO  ProductService:30 - [] ActionaLog.start  product add method 
+2024-01-26 06:00:52,473 INFO  ProductService:38 - [] ActionLog.end  product add method 
+2024-01-26 06:02:02,598 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 06:02:02,605 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 06:02:32,555 INFO  ProductService:30 - [] ActionaLog.start  product add method 
+2024-01-26 06:02:32,559 INFO  ProductService:38 - [] ActionLog.end  product add method 
+2024-01-26 06:03:34,688 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 06:03:34,695 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 06:06:06,334 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 06:06:06,347 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 06:13:48,110 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 06:13:48,117 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 06:14:40,006 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 06:14:40,015 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 06:19:14,364 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 06:19:14,375 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 06:46:55,585 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 06:46:55,596 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 08:28:40,227 INFO  AbstractEntityManagerFactoryBean:650 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-26 08:28:40,251 INFO  HikariDataSource:350 - [] HikariPool-1 - Shutdown initiated...
+2024-01-26 08:28:40,260 INFO  HikariDataSource:352 - [] HikariPool-1 - Shutdown completed.
+2024-01-26 13:23:06,816 INFO  StartupInfoLogger:50 - [] Starting WareHouseAppApplication using Java 20.0.2 with PID 19224 (D:\Desktop\git-new-ware\build\classes\java\main started by NIHAD in D:\Desktop\git-new-ware)
+2024-01-26 13:23:06,819 INFO  SpringApplication:662 - [] No active profile set, falling back to 1 default profile: "default"
+2024-01-26 13:23:07,990 INFO  RepositoryConfigurationDelegate:139 - [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-26 13:23:08,103 INFO  RepositoryConfigurationDelegate:208 - [] Finished Spring Data repository scanning in 101 ms. Found 3 JPA repository interfaces.
+2024-01-26 13:23:08,808 INFO  TomcatWebServer:109 - [] Tomcat initialized with port 8080 (http)
+2024-01-26 13:23:08,826 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2024-01-26 13:23:08,827 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-26 13:23:08,951 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2024-01-26 13:23:08,952 INFO  ServletWebServerApplicationContext:296 - [] Root WebApplicationContext: initialization completed in 2082 ms
+2024-01-26 13:23:09,112 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-26 13:23:09,198 INFO  Version:44 - [] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-26 13:23:09,245 INFO  RegionFactoryInitiator:50 - [] HHH000026: Second-level cache disabled
+2024-01-26 13:23:09,583 INFO  SpringPersistenceUnitInfo:87 - [] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-26 13:23:09,636 INFO  HikariDataSource:110 - [] HikariPool-1 - Starting...
+2024-01-26 13:23:09,943 INFO  HikariPool:565 - [] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3e2d8623
+2024-01-26 13:23:09,945 INFO  HikariDataSource:123 - [] HikariPool-1 - Start completed.
+2024-01-26 13:23:11,274 INFO  JtaPlatformInitiator:58 - [] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-26 13:23:11,474 INFO  AbstractEntityManagerFactoryBean:437 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-26 13:23:12,193 WARN  JpaBaseConfiguration$JpaWebConfiguration:232 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-26 13:23:12,545 INFO  DefaultSecurityFilterChain:54 - [] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4ea4290f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@25cef4b3, org.springframework.security.web.context.SecurityContextHolderFilter@253379ec, org.springframework.security.web.header.HeaderWriterFilter@74fda9ed, org.springframework.web.filter.CorsFilter@5e783f78, org.springframework.security.web.authentication.logout.LogoutFilter@3d3c14c3, com.example.warehouseapp.config.JwtAuthenticationFilter@55a5eea3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@27d4513e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@367653cc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5bdef8ee, org.springframework.security.web.session.SessionManagementFilter@f4b2d13, org.springframework.security.web.access.ExceptionTranslationFilter@5ff12345, org.springframework.security.web.access.intercept.AuthorizationFilter@2e68bd3d]
+2024-01-26 13:23:12,564 WARN  User:284 - [] User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-01-26 13:23:13,118 INFO  TomcatWebServer:241 - [] Tomcat started on port 8080 (http) with context path ''
+2024-01-26 13:23:13,135 INFO  StartupInfoLogger:56 - [] Started WareHouseAppApplication in 6.902 seconds (process running for 7.845)
+2024-01-26 13:24:12,560 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-26 13:24:12,561 INFO  FrameworkServlet:532 - [] Initializing Servlet 'dispatcherServlet'
+2024-01-26 13:24:12,564 INFO  FrameworkServlet:554 - [] Completed initialization in 2 ms
+2024-01-26 13:24:14,691 INFO  AbstractOpenApiResource:371 - [] Init duration for springdoc-openapi is: 773 ms
+2024-01-26 13:24:21,225 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 13:24:21,921 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 13:24:55,988 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 13:24:56,000 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 13:25:13,097 INFO  ProductService:64 - [] ActionLog.start  checkOut method with id: MQ==
+2024-01-26 13:25:13,106 ERROR DirectJDKLog:175 - [] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.warehouseapp.dao.entity.ProductEntity.getCheckCount()" because "entity" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.warehouseapp.dao.entity.ProductEntity.getCheckCount()" because "entity" is null
+	at com.example.warehouseapp.service.ProductService.checkCount(ProductService.java:67)
+	at com.example.warehouseapp.controller.ProductController.checkCount(ProductController.java:45)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:262)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at com.example.warehouseapp.config.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:40)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:225)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2024-01-26 13:25:17,312 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 13:25:17,332 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 13:25:20,855 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 13:25:20,864 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 13:25:57,510 INFO  ProductService:64 - [] ActionLog.start  checkOut method with id: MQ==
+2024-01-26 13:25:57,518 ERROR DirectJDKLog:175 - [] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.warehouseapp.dao.entity.ProductEntity.getCheckCount()" because "entity" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.warehouseapp.dao.entity.ProductEntity.getCheckCount()" because "entity" is null
+	at com.example.warehouseapp.service.ProductService.checkCount(ProductService.java:67)
+	at com.example.warehouseapp.controller.ProductController.checkCount(ProductController.java:45)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:262)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at com.example.warehouseapp.config.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:40)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:225)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2024-01-26 13:26:14,609 INFO  ProductService:64 - [] ActionLog.start  checkOut method with id: NA==
+2024-01-26 13:26:14,688 INFO  ProductService:70 - [] ActionLog.end  checkOut method with id: NA==
+2024-01-26 13:26:30,280 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 13:26:30,303 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 13:34:52,592 INFO  AuthService:90 - [] RegAuth TEST --->>>
+2024-01-26 13:34:52,800 INFO  AuthService:92 - [] endcoded password budur:
+2024-01-26 13:34:52,837 INFO  AuthService:101 - [] RegAuth end --->>>
+2024-01-26 13:35:05,133 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 13:35:05,151 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 13:35:21,131 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 13:35:21,152 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 13:35:33,110 INFO  ProductService:64 - [] ActionLog.start  checkOut method with id: NA==
+2024-01-26 13:35:33,119 INFO  ProductService:70 - [] ActionLog.end  checkOut method with id: NA==
+2024-01-26 13:35:39,869 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 13:35:39,882 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 13:35:45,386 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 13:35:45,398 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 13:36:20,021 INFO  ProductService:64 - [] ActionLog.start  checkOut method with id: NA==
+2024-01-26 13:36:20,029 INFO  ProductService:70 - [] ActionLog.end  checkOut method with id: NA==
+2024-01-26 13:36:26,983 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 13:36:26,998 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 13:37:24,668 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 13:37:24,685 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 13:38:17,387 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 13:38:17,400 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 13:38:31,786 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 13:38:31,801 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 13:43:28,989 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 13:43:28,998 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 13:43:38,447 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 13:43:38,454 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 13:43:45,798 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 13:43:45,809 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 13:49:17,539 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 13:49:17,547 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 13:50:57,704 INFO  ProductService:64 - [] ActionLog.start  checkOut method with id: NA==
+2024-01-26 13:50:57,712 INFO  ProductService:70 - [] ActionLog.end  checkOut method with id: NA==
+2024-01-26 13:51:08,577 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 13:51:08,591 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 13:51:17,697 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 13:51:17,705 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 13:51:20,667 INFO  ProductService:64 - [] ActionLog.start  checkOut method with id: NA==
+2024-01-26 13:51:20,680 INFO  ProductService:70 - [] ActionLog.end  checkOut method with id: NA==
+2024-01-26 13:51:26,517 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 13:51:26,526 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 13:51:28,617 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 13:51:28,627 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 13:51:38,941 INFO  ProductService:64 - [] ActionLog.start  checkOut method with id: NA==
+2024-01-26 13:51:38,951 INFO  ProductService:70 - [] ActionLog.end  checkOut method with id: NA==
+2024-01-26 13:51:43,942 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 13:51:43,951 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 13:51:45,936 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 13:51:45,944 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 13:53:03,757 INFO  ProductService:64 - [] ActionLog.start  checkOut method with id: NA==
+2024-01-26 13:53:03,770 INFO  ProductService:70 - [] ActionLog.end  checkOut method with id: NA==
+2024-01-26 13:53:08,894 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 13:53:08,909 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 13:53:23,448 INFO  ProductService:64 - [] ActionLog.start  checkOut method with id: MTA=
+2024-01-26 13:53:23,461 INFO  ProductService:70 - [] ActionLog.end  checkOut method with id: MTA=
+2024-01-26 13:53:26,361 INFO  ProductService:64 - [] ActionLog.start  checkOut method with id: MTA=
+2024-01-26 13:53:26,368 INFO  ProductService:70 - [] ActionLog.end  checkOut method with id: MTA=
+2024-01-26 13:53:29,995 INFO  ProductService:64 - [] ActionLog.start  checkOut method with id: MTA=
+2024-01-26 13:53:30,004 INFO  ProductService:70 - [] ActionLog.end  checkOut method with id: MTA=
+2024-01-26 13:53:31,987 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 13:53:32,002 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 13:53:34,565 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 13:53:34,571 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 13:54:02,445 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 13:54:02,453 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 13:57:47,586 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 13:57:47,593 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 13:58:02,891 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 13:58:02,898 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 13:58:07,273 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 13:58:07,285 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 14:00:52,610 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 14:00:52,618 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 14:02:12,766 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 14:02:12,773 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 14:03:31,601 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 14:03:31,608 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 14:05:00,805 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 14:05:00,811 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 14:07:58,764 INFO  AuthService:90 - [] RegAuth TEST --->>>
+2024-01-26 14:07:58,914 INFO  AuthService:92 - [] endcoded password budur:
+2024-01-26 14:07:58,924 INFO  AuthService:101 - [] RegAuth end --->>>
+2024-01-26 14:08:10,437 INFO  AuthService:90 - [] RegAuth TEST --->>>
+2024-01-26 14:08:10,570 INFO  AuthService:92 - [] endcoded password budur:
+2024-01-26 14:08:10,574 INFO  AuthService:101 - [] RegAuth end --->>>
+2024-01-26 14:08:28,524 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 14:08:28,528 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 14:10:12,912 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 14:10:12,917 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 14:10:30,640 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 14:10:30,646 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 14:10:58,766 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 14:10:58,772 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 14:26:08,348 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 14:26:08,357 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 14:27:24,585 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 14:27:24,597 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 14:28:38,726 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 14:28:38,731 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 14:31:28,343 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 14:31:28,349 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 14:39:05,416 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 14:39:05,425 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 14:39:35,264 INFO  ProductService:42 - [] ActionLog.start  product get method 
+2024-01-26 14:39:35,269 INFO  ProductService:44 - [] ActionLog.end  product get method 
+2024-01-26 14:47:02,187 INFO  AbstractEntityManagerFactoryBean:650 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-26 14:47:02,191 INFO  HikariDataSource:350 - [] HikariPool-1 - Shutdown initiated...
+2024-01-26 14:47:02,204 INFO  HikariDataSource:352 - [] HikariPool-1 - Shutdown completed.
